@@ -1,4 +1,4 @@
-const masterPassword = "your_master_password"; // Replace with your master password
+const masterPassword = "82025840"; // Replace with your master password
 
 document.getElementById("loginBtn").addEventListener("click", function () {
     const enteredPassword = document.getElementById("password").value;
