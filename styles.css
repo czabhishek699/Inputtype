@@ -1,39 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+/* styles.css */
+/* Add some basic styling */
+.name-container {
+    display: flex;
+    align-items: center;
 }
-
-.container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    text-align: center;
+.avatar {
+    width: 50px; /* Adjust the size of the photo as needed */
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px; /* Add some spacing between the photo and name */
 }
-
-h2 {
-    margin-top: 0;
-}
-
-input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.message {
-    color: red;
-    display: none;
+.divider {
+    height: 1px;
+    background-color: #000; /* Change the background color to your preference */
+    flex-grow: 1; /* Expands the divider to fill the available space */
 }￼Enter
